@@ -1,0 +1,16 @@
+package nextgen_nb.preappsubmit;
+
+import java.lang.Number;
+import java.lang.Object;
+import ccg.util.workaround.DeleteObjects;
+
+rule "Clear Session of Delete Flag"
+	no-loop true
+	salience 999997
+	dialect "mvel"
+	when
+		$deleteFlag : DeleteObjects( )
+	then
+		retract( $deleteFlag );
+		System.out.println("Rule Clear Session of Delete Flag fired");
+end

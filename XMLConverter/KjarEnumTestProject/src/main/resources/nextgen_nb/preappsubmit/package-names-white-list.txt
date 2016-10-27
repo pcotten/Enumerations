@@ -1,0 +1,10 @@
+com.csc.fsg.life.nb.message.request.update
+com.csc.fsg.life.nb.message.request
+com.csc.fsg.life.nb.message
+com.csc.fsg.life.common.rules
+com.csc.fsg.life.nb.message.response
+com.csc.fsg.life.nb.service
+com.csc.fsg.life.nb.service.update
+com.csc.fs.accel.tools.ui.av
+com.csc.fsg.life.nb.entity.policy
+ccg.util.workaround
